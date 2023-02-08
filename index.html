@@ -7,7 +7,7 @@
     <title>webcam mirror</title>
 </head>
 <body>
-    <video id="player" controls muted autoplay></video>
+    <video id="player" controls muted autoplay style="width: 100vw; height: 100vh;"></video>
     <script type="text/javascript">
         const video = document.querySelector('#player');
         window.navigator.mediaDevices.getUserMedia({ video: true })
